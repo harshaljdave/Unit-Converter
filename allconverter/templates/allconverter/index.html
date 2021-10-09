@@ -1,0 +1,62 @@
+{% load static %}
+<html>
+    <head>
+        <title>Converter</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+        <link rel="stylesheet" href={% static 'allconverter/style.css' %}>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;600;800&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <div class="main">
+         
+<!--             
+                    <h1><a href={% url 'temprature' %}>Temprature</a></h1>
+                    <h1 ><a href={% url 'length' %}>Length</a></h1>
+            
+
+                    <h1 ><a href={% url 'volume' %}>Volume</a></h1>
+                    <h1 ><a href={% url 'speed' %}>Speed</a></h1>
+
+
+                    <h1 ><a href={% url 'area' %}>Area</a></h1>
+                    <h1 ><a href={% url 'mass' %}>Mass</a></h1>
+
+            
+                    <h1 ><a href={% url 'data' %}>Data</a></h1>
+                    <h1 ><a href={% url 'time' %}>Time</a></h1> -->
+
+                    <div class="row-1">
+<div class="c s1">
+    <h2>  <a href={% url 'temprature' %}>Temprature</a>  </h2>
+</div>
+<div class="c s2">
+    <h2>  <a href={% url 'length' %}>Length</a>  </h2>
+</div>
+<div class="c s3">
+    <h2>  <a href={% url 'volume' %}>Volume</a>  </h2>
+</div>
+<div class="c s4">
+    <h2>  <a href={% url 'speed' %}>Speed</a>  </h2>
+</div>
+                    </div>
+                    <div class="row-2">
+                        <div class="c s5">
+                            <h2>  <a href={% url 'area' %}></a>Area</a>  </h2>
+                        </div>
+                        <div class="c s6">
+                            <h2>  <a href={% url 'mass' %}>Mass</a>  </h2>
+                        </div>
+                        <div class="c s7">
+                            <h2>  <a href={% url 'data' %}>Data</a>  </h2>
+                        </div>
+                        <div class="c s8">
+                            <h2>  <a href={% url 'time' %}>Time</a>  </h2>
+                        </div>
+                    </div>
+
+                  
+        </div>
+    </body>
+</html>
